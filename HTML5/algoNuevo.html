@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>
+		Quibo
+	</title>
+
+		<!-- Cuando hay una ^ apunta a todos los que inicien con la palabra correspondiente -->
+		<!-- Cuando hay una $ apunta a todos los que terminen con la palabra correspondiente -->
+		<!-- Cuando hay una * apunta a todos los que tengan con la palabra correspondiente -->
+		<!-- el nth-child aplica un estilo al segundo hermano "P" -->
+		<!-- el nth-child puedo escribir "odd" para agarrar los elementos impares e "iven" pa los pares  -->
+		<!-- el first child es para los primeros hijos  -->
+		<!-- el last child es para los ultimos hijos  -->
+		<!-- el only child es para los hijos unicos (sin hermanos) -->
+
+
+	<style >
+
+		
+		p[name ^="mis"]{
+			color: red;
+		}
+			p[name $="mis"]{
+			color: blue;
+		}
+			p[name $="ECOLE"]{
+			color: green;
+		}
+
+		p:nth-child(even){
+			background-color: yellow;
+		}
+
+		p:first-child{
+			background-color: blue;
+		}
+
+		p:last-child{
+			background-color: gray;
+		}
+
+
+
+
+	</style>
+</head>
+<body>
+	<!-- Los nombres les importan las mayus-->
+		<p name="miselementos">Hey</p>
+		<p name="ECOLE">Hola</p>
+		<p name="MENTOSmis">Adios</p>
+
+		<ol>
+			<li>Frutas: </li>
+			<li> 
+				<p> Manzana</p>
+				<p> Uvas</p>
+				<p> Naranjas</p>
+				<p> Melon</p>
+			</li>
+
+		</ol>
+</body>
+</html>

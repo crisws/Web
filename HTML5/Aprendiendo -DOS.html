@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<!--En el head va la informacion no visible -->
+	<meta charset="iso-8559-1"/>
+	<meta name="descripcon" content="Pagina de enseñanza html 5"/>
+	<meta name="keywords" content="html5, css3, Javascript, diseño web"/>
+	<meta charset="utf-8"/>
+	<title> El titulo de mi pagina web</title>
+	<link rel="stylesheet" href="MiHojadeEstilos.css"/>
+
+	<style >
+		#barra {
+			background-color: red;
+		}
+
+
+	</style>
+
+
+</head>
+
+<body>
+<!--Esta es mi etiqueta de tipo cabecera -->
+	<header id="cabecera">
+		<!--Esta es mi h1 utilizada para destacar titulos -->
+			<h1> Esto es mi cabecera</h1>
+
+	</header>
+
+	<!-- Esto es mi barra de navegacion -->
+	<nav>
+		<!-- Esta etiqueta se usan para construir listas-->
+		<ul> 
+		<!-- Esta etiqueta son elementos -->
+			<li> Quienes somos</li>
+			<li> Productos</li>	
+			<li> Contacto</li>
+			<li> Nosotros </li>
+		</ul>
+
+	</nav>
+
+	<!-- Esta seria mi barra lateral -->
+	<aside id="barra">
+	<!-- Elementos de mi barra lateral -->
+		<blockquote> Primer elemento </blockquote>
+		<blockquote> Segundo elemento </blockquote>
+		<blockquote> Tercero elemento </blockquote>
+		<blockquote> Cuarto elemento </blockquote>
+	</aside>
+
+	<!-- Aqui va mi contenido princiapl -->
+	<section id="contenido">
+
+	<!--La etiqueta article agrupa contenido similar -->
+		<article>
+			<header> 
+				<hgroup>
+					<h2>Titulo de la noticia 1</h2>  
+					<h3>Subtitulo de la noticia 1</h3>
+				</hgroup>
+			</header>
+			<!-- elemento importante del articulo pero independiente -->
+			<figure> 
+				<img src="imagenes/ella.jpg"/>
+				<figcaption> Pies de imagenes </figcaption>
+			</figure>
+				<!-- la etiqueta mark resta el texto like f3 of google  -->
+				<p> <mark> Noticia 1 </mark> </p>
+				<!-- la etiqueta em da emfasis  -->
+				<p> <em> Seguimos hablando de noticia 1 </em></p>
+
+				<p> Terminamos de hablar de la noticia 1</p>
+
+			<footer>
+				<p>Comentarios o mamadas del pie de la noticia 1</p>
+			</footer>
+
+		</article>
+
+		<article>
+			<header> 
+				<hgroup>
+				<!-- cittie es como la etiqueta em pero se usa para resltar libros o canciones en el sentido semantico -->
+					<h2> <cite> Lo que el viento se wasso </cite> </h2>  
+					<h3>Subtitulo de la noticia 2</h3>
+				</hgroup>
+			</header>
+
+			<p> Noticia 2</p>
+				<!-- El sentido semantico del strong es decirle que es importane y lo pone en negritas y los buscadores lo miran mucho -->
+			<p> <strong> Seguimos hablando de noticia 2 </strong></p>
+
+			<p> Terminamos de hablar de la noticia 2 </p>
+		</article>
+
+		<article>
+			<header> 
+				<hgroup>
+					<h2>Titulo de la noticia 3</h2>  
+					<h3>Subtitulo de la noticia 3</h3>
+				</hgroup>
+			</header>
+
+			<p> Noticia 3</p>
+			<p> Seguimos hablando de noticia 3</p>
+			<p> Terminamos de hablar de la noticia 3</p>
+			<!-- Etiqueta time para indicar fechas -->
+			<time datetime="2017/04/31" pubdate>Noticia publicada el dia 31/04/2017 </time>
+
+		</article>
+
+	</section>
+
+	<!-- Aqui va el pie de la pagina (lo de abajo) -->
+	<footer id="mispies">	
+		<!-- Etiqueta para poner pequeño el texto y lo hace un texto  legal -->
+		<small>
+			Derechos reservados 
+
+
+		</small>
+
+		<!-- crea un block level y semanticamente va en el footer y lo pone en cursiva-->
+		<address>
+			TF 6674233766
+		</address>
+		
+
+
+	</footer>
+
+		
+</body>
+</html>

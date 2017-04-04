@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+body {
+	background-color:white;
+}
+#cabecera{
+	background-color: blue;
+}
+nav{
+	background-color: red;
+}
+#barra{
+
+	background-color: green;
+	float: left;
+	height: 1653px;
+
+}
+#contenido{
+	background-color: yellow;
+	margin-left: 210px;
+	padding-left: 15px;
+	padding-top: 15px;
+}
+#mispies{
+	background-color: gray;
+	clear: both;
+	margin-top: 10px;
+}
+li{
+
+	background-color: yellow;
+	display: inline;
+}
+

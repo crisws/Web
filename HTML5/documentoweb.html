@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> El titulo</title>
+
+	<style type="text/css">
+		#principal{
+
+			width: 500px;
+			/*background-color: blue;*/
+
+			text-align: center;
+			margin: 15px auto;
+			margin-top: 50px;
+			padding: 15px;
+			border: 3px solid black;
+			box-shadow: gray 5px 5px 10px;  
+			border-radius: 80px;
+			/* Primero por donde empieza top o bottom */
+			background: -moz-linear-gradient(top, #00f, #3ff);
+			background: -webkit-linear-gradient(left, blue, cyan);
+			background: -ms-linear-gradient(top, blue, cyan);
+			background: -o-linear-gradient(top, blue, cyan);
+
+			/*-webkit-transform: rotate(5deg);*/
+			/*-webkit-transform: skew(10deg);*/
+			-webkit-transition: -webkit-transform .5s ease 0.05s;
+			-webkit-transition: -webkit-transform .5s ease 0.05s;
+
+
+		}
+
+		#principal:hover{
+			/*-webkit-transform: rotate(5deg);*/
+			-webkit-transform: scale(1.2,1);
+
+
+		}
+	
+
+
+		@font-face{
+			font-family: 'Mifont';
+			src: url('Sketch.ttf'); 
+
+		}
+		#titulo{
+			/* en Mi font debo escribir mi fuente o una por defecto si quito comillas y pongo verdana Jala!*/
+			font: bold 70px 'Mifont';
+			text-shadow: gray 3px 3px 10px;
+
+
+			
+		}
+
+
+
+	</style>
+</head>
+<body>
+	<header id="principal">
+	<!-- La etiqueta span no añade estilos -->
+	<span id="titulo">Estilos CSS </span>
+
+	 </header>
+
+
+
+</body>
+</html>
